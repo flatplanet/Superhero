@@ -10,7 +10,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'faker', '~> 1.6', '>= 1.6.6'
-
+gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 
 
 group :development do
