@@ -1,2 +1,19 @@
-<h1>Home#team</h1>
-<p>Find me in app/views/home/team.html.erb</p>
+<div class="container" >
+    <%= render 'home/top_ad' %>
+    
+    <br/>
+
+
+
+        <% if @team_number < 1 %>
+            <%= render 'home/create_team' %>
+    
+        <% else %>
+
+			<%= render 'home/show_team' %>
+    
+        <% end %>
+    
+    
+    
+</div>

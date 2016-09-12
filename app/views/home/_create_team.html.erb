@@ -1,0 +1,38 @@
+            <div class="panel panel-default">
+				<div class="panel-heading">
+				<h3 class="panel-title gray">How Many Team Members Do You Want?</h3>
+				</div>
+				<div class="panel-body">
+					<div class="row">
+					<div class="col-md-4">
+					<%= form_tag home_team_path, :method => 'POST' do %>
+                       <%= select_tag(:team_number, options_for_select([
+                       ['1', 1], 
+                       ['2', 2],
+                       ['3', 3], 
+                       ['4', 4],
+                       ['5', 5], 
+                       ['6', 6],
+                       ['7', 7], 
+                       ['8', 8],
+                       ['9', 9], 
+                       ['10', 10],
+                       ]), class: 'form-control') %>
+                       
+                        <br/><br/>
+                      <%= submit_tag 'Build Your Team!' %>
+                    <% end %>
+					
+					</div>
+					<div class="col-md-4">
+					    
+					</div>
+					    
+					<div class="col-md-4">
+						<%= render "home/side_ad_code" %>
+					</div>	
+					
+					</div>
+				</div>
+				<div class="panel-footer"></div>
+			</div>

@@ -1,5 +1,7 @@
 class HomeController < ApplicationController
-  def index
+  before_action :common_content, :only => [:index, :team]
+  
+  def common_content
     @super_hero_name = Faker::Superhero.name
     @super_hero_power = Faker::Superhero.power
     
@@ -16,7 +18,13 @@ class HomeController < ApplicationController
     @random_avatar = rand(1..100)
     @super_hero_avatar = Faker::Avatar.image(@random_avatar, "175x175", "png", @random_set_pic, "bg2" )
   end
+  
+  
+  def index
+  end
 
   def team
+    @teams = "red"
+    @team_number = params[:team_number].to_i
   end
 end

@@ -1,17 +1,17 @@
 <div class="container" >
-    <h2>Superhero Name Generator</h2>
+    <%= render 'home/top_ad' %>
     
     <br/>
 
 			<div class="panel panel-default">
 				<div class="panel-heading">
-				<h3 class="panel-title">Refresh To Get A New Superhero...</h3>
+				<h3 class="panel-title gray">Refresh To Get A New Superhero...</h3>
 				</div>
 				<div class="panel-body">
 					<div class="row">
 					<div class="col-md-8">
 					<img src="<%= @super_hero_avatar %>" align="left" class="hero_img">
-					<h3>Your Superhero Name: <br/><span class="red"><%= @super_hero_name%></span></h3>
+					<h3>Your Superhero Name: <br/><span class="red"><%= @super_hero_name %></span></h3>
 					<h3>Your Super Power: <br/><span class="red"><%= @super_hero_power %></span></h3>
 					
 					<br/><br/><br/><br/>
@@ -28,7 +28,7 @@
 					
 					</div>
 				</div>
-				<div class="panel-footer"></div>
+				<div class="panel-footer"><%= link_to "Create A Whole Superhero Team...", home_team_path %></div>
 			</div>
     
     
