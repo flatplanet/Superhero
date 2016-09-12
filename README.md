@@ -1,10 +1,12 @@
+#######################################################
+Superhero Name Generator
 
-  Superhero Name Generator
+- Written with Ruby on Rails
 
-  - Written with Ruby on Rails
-  - Using Bootstrap CSS
+- Using Bootstrap CSS
 
-  John Elder (JohnElder.org)
+John Elder (JohnElder.org)
+  
 #######################################################
 
 
