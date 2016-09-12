@@ -2,9 +2,9 @@ Superhero Name Generator
 ========================================================
 - Written with Ruby on Rails
 
-- Using Bootstrap CSS
-
 - Mobile Ready
+
+- Uses Bootstrap CSS
 
 - Uses the Faker Gem
 
