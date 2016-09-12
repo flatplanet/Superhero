@@ -1,13 +1,12 @@
-#######################################################
 Superhero Name Generator
-
+========================================================
 - Written with Ruby on Rails
 
 - Using Bootstrap CSS
 
 John Elder (JohnElder.org)
   
-#######################################################
+--------------------------------------------------------
 
 
 This is a goofy little app that I built to generate
@@ -33,4 +32,4 @@ and then generating them.
 It uses the awesome "Faker" gem.
 
 
-Check it out at:  [example](http://superhero.JohnElder.org "superhero.JohnElder.org")
+Check it out at:  http://superhero.JohnElder.org
