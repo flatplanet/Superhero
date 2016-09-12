@@ -16,7 +16,7 @@ gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 group :development do
   gem 'web-console', '~> 2.0'
   gem 'spring'
-  gem 'sqlite3'
+  gem 'sqlite3', '~> 1.3', '>= 1.3.11'
 end
 
 group :production do
