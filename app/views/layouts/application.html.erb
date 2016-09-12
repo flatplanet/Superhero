@@ -6,6 +6,15 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Superhero Name Generator! Generate one superhero or a whole team!">
+<meta property="og:site_name" content="Superhero Name Generator" />
+<meta property="og:url" content="http://superhero.johnelder.org" /> 
+<meta property="og:title" content="Superhero name Generator" /> 
+<meta property="og:description" content="Superhero Name Generator! Generate one superhero or a whole team!" />
+<% rand_pic = rand(1..2) %>
+<meta property="og:image" content="<img src="<%= Faker::Avatar.image(rand(1..100), '175x175', 'png', if (rand_pic == 1) then 'set1' else 'set2' end, 'bg2' ) %>"  />
+  
+  
   <style>
     html,
 		body {height:100%; background-color: #fff;  background-image: url("assets/stripe2.png")}
