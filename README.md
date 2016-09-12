@@ -4,7 +4,9 @@ Superhero Name Generator
 
 - Using Bootstrap CSS
 
-John Elder (JohnElder.org)
+- And the Faker Gem
+
+John Elder ([JohnElder.org](http://JohnElder.org)])
   
 --------------------------------------------------------
 
