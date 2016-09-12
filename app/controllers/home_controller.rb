@@ -16,7 +16,7 @@ class HomeController < ApplicationController
     @corporate_job = Faker::Name.title
     @corporate_power = Faker::Company.bs
     @random_avatar = rand(1..100)
-    @super_hero_avatar = Faker::Avatar.image(@random_avatar, "175x175", "png", @random_set_pic, "bg2" )
+    @super_hero_avatar = Faker::Avatar.image(@random_avatar, "300x300", "png", @random_set_pic, "bg2" )
   end
   
   
