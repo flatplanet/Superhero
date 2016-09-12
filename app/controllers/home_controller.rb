@@ -2,6 +2,10 @@ class HomeController < ApplicationController
   before_action :common_content, :only => [:index, :team]
   
   def common_content
+    # detect if on mobile browser or not
+    
+    
+    # generate our superhero instance variables
     @super_hero_name = Faker::Superhero.name
     @super_hero_power = Faker::Superhero.power
     
