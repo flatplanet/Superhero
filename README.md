@@ -33,4 +33,4 @@ and then generating them.
 It uses the awesome "Faker" gem.
 
 
-Check it out at:  http://superhero.JohnElder.org
+Check it out at:  [example](http://superhero.JohnElder.org "superhero.JohnElder.org")
