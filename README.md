@@ -6,7 +6,7 @@ Superhero Name Generator
 
 - And the Faker Gem
 
-John Elder ([JohnElder.org](http://JohnElder.org)])
+John Elder ([JohnElder.org](http://JohnElder.org))
   
 --------------------------------------------------------
 
