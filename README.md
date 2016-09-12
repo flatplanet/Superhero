@@ -4,7 +4,11 @@ Superhero Name Generator
 
 - Using Bootstrap CSS
 
-- And the Faker Gem
+- Mobile Ready
+
+- Uses the Faker Gem
+
+- Uses Browser Gem 
 
 John Elder ([JohnElder.org](http://JohnElder.org))
   
