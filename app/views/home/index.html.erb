@@ -1,2 +1,41 @@
-<h1>Home#index</h1>
-<p>Find me in app/views/home/index.html.erb</p>
+<div class="container" >
+    <h2>Superhero Name Generator</h2>
+    
+    <br/>
+
+			<div class="panel panel-default">
+				<div class="panel-heading">
+				<h3 class="panel-title">Refresh To Get A New Superhero...</h3>
+				</div>
+				<div class="panel-body">
+					<div class="row">
+					<div class="col-md-8">
+					<img src="<%= @super_hero_avatar %>" align="left">
+					<h3>&nbsp;&nbsp;Your Superhero Name: <span class="red"><%= @super_hero_name%></span></h3>
+					<h3>&nbsp;&nbsp;Your Super Power: <span class="red"><%= @super_hero_power %></span></h3>
+					
+					<br/><br/><br/><br/>
+					
+					
+					<h4>&nbsp;&nbsp;Your Undercover Day Job is: <%= @corporate_job %></h4>
+					<h4>&nbsp;&nbsp;Your Corporate Superpower is: <%= @corporate_power.titleize %></h4>
+					
+					
+					</div>
+					<div class="col-md-4">
+						<%= render "home/side_ad_code" %>
+					</div>	
+					
+					</div>
+				</div>
+				<div class="panel-footer"></div>
+			</div>
+    
+    
+    
+    
+    
+    
+    
+    
+</div>
