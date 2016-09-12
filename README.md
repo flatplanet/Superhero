@@ -1,5 +1,11 @@
-Superhero Name Generator
-John Elder (JohnElder.org)
+#######################################################
+#  Superhero Name Generator
+#
+#  - Written with Ruby on Rails
+#  - Using Bootstrap CSS
+#
+#  John Elder (JohnElder.org)
+#######################################################
 
 
 This is a goofy little app that I built to generate
