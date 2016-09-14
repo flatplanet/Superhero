@@ -1,5 +1,18 @@
 Superhero Name Generator
-John Elder (JohnElder.org)
+========================================================
+- Written with Ruby on Rails
+
+- Mobile Ready
+
+- Uses Bootstrap CSS
+
+- Uses the Faker Gem
+
+- Uses Browser Gem 
+
+John Elder ([JohnElder.org](http://JohnElder.org))
+  
+--------------------------------------------------------
 
 
 This is a goofy little app that I built to generate
